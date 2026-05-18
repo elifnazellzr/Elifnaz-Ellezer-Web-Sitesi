@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elifnaz Ellezer — Bilgisayar Programcısı</title>
+    <meta
+      name="description"
+      content="İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı öğrencisi. Web teknolojileri, veritabanı sistemleri ve kullanıcı arayüzü geliştirme."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <div class="logo">
+        <a href="#">EE</a>
+      </div>
+      <nav id="desktop-nav">
+        <a href="#about">Hakkımda</a>
+        <a href="#experience">Deneyim</a>
+        <a href="#projects">Projeler</a>
+        <a href="#skills">Beceriler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+      <div class="header-controls">
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Tema değiştir"
+        >
+          <svg
+            class="icon-moon"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+          <svg
+            class="icon-sun"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menü">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MOBILE NAV OVERLAY -->
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#about" class="mobile-link">Hakkımda</a>
+      <a href="#experience" class="mobile-link">Deneyim</a>
+      <a href="#projects" class="mobile-link">Projeler</a>
+      <a href="#skills" class="mobile-link">Beceriler</a>
+      <a href="#contact" class="mobile-link">İletişim</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Bilgisayar Programcısı</span>
+        <h1>
+          Elifnaz<br />
+          <em>Ellezer</em>
+        </h1>
+        <p class="hero-desc">
+          Web teknolojileri, kullanıcı arayüzü ve veritabanı sistemleri üzerine
+          çalışıyorum. Kullanıcı odaklı, temiz ve işlevsel projeler
+          geliştiriyorum.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Projeleri Gör</a>
+          <a
+            href="cv/Özgeçmiş.pdf"
+            class="btn-ghost"
+            download="Elifnaz-Ellezer-Ozgecmis.pdf"
+            >TR CV İndir</a
+          >
+          <a
+            href="cv/Resume.pdf"
+            class="btn-ghost"
+            download="Elifnaz-Ellezer-Resume.pdf"
+            >EN CV İndir</a
+          >
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/image.jpeg" alt="Elifnaz Ellezer" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <span class="section-label">Hakkımda</span>
+      <h2 class="section-title">Kendimi geliştirmeye<br />devam ediyorum</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı öğrencisiyim.
+            Web teknolojileri, kullanıcı arayüzü geliştirme ve veritabanı
+            sistemleri üzerine çalışmalar yapıyorum.
+          </p>
+          <p>
+            HTML, CSS, JavaScript, PHP, SQL Server, MySQL, Python, C ve C#
+            teknolojileriyle kullanıcı odaklı projeler geliştiriyorum. Öğrenmeye
+            açık, takım çalışmasına yatkın ve yazılım geliştirme alanında
+            kariyer hedefleyen biriyim.
+          </p>
+          <p>
+            Spor yapmaktan, yeni yerler keşfetmekten ve yazılım dünyasındaki
+            gelişmeleri takip etmekten keyif alıyorum.
+          </p>
+        </div>
+        <div class="about-meta">
+          <div class="meta-block">
+            <h4>Eğitim</h4>
+            <div class="edu-item">
+              <span class="edu-year">2024 – Şu an</span>
+              <span class="edu-name"
+                >İzmir Ekonomi Üniversitesi<br /><small
+                  >Bilgisayar Programcılığı</small
+                ></span
+              >
+            </div>
+            <div class="edu-item">
+              <span class="edu-year">2019 – 2023</span>
+              <span class="edu-name">Açık Lise</span>
+            </div>
+          </div>
+          <div class="meta-block">
+            <h4>Dil</h4>
+            <div class="edu-item">
+              <span class="edu-year">İngilizce</span>
+              <span class="edu-name">Orta Seviye</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section reveal">
+      <span class="section-label">Deneyim</span>
+      <h2 class="section-title">Çalışma geçmişim</h2>
+
+      <div class="exp-list">
+        <div class="exp-item">
+          <span class="exp-period">2026 – Şu an</span>
+          <div>
+            <div class="exp-role">Komi</div>
+            <div class="exp-company">Beylerbeyi Künefe</div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <span class="exp-period">2025 – 2026</span>
+          <div>
+            <div class="exp-role">Garson</div>
+            <div class="exp-company">La Recette Pattiserie &mdash; 7 ay</div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <span class="exp-period">2024 – 2025</span>
+          <div>
+            <div class="exp-role">Tezgahtar / Garson</div>
+            <div class="exp-company">Leos Coffee &mdash; 6 ay</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <span class="section-label">Projeler</span>
+      <h2 class="section-title">Geliştirdiğim uygulamalar</h2>
+
+      <div class="projects-list">
+        <div class="project-item">
+          <span class="project-tag">PHP</span>
+          <h3>Online Randevu Sistemi</h3>
+          <p>PHP ile geliştirilen online randevu takip ve yönetim sistemi.</p>
+          <a
+            href="https://github.com/elifnazellzr/Online-Randevu-Takip-Sistemi"
+            target="_blank"
+            class="project-link"
+            >GitHub'da gör →</a
+          >
+        </div>
+        <div class="project-item">
+          <span class="project-tag">SQL Server</span>
+          <h3>Turizm Otomasyonu</h3>
+          <p>
+            SQL Server ile geliştirilen rezervasyon ve müşteri yönetim sistemi.
+          </p>
+          <a
+            href="https://github.com/elifnazellzr/Turizm-Otomasyonu"
+            target="_blank"
+            class="project-link"
+            >GitHub'da gör →</a
+          >
+        </div>
+        <div class="project-item">
+          <span class="project-tag">SQL Server</span>
+          <h3>Kütüphane Otomasyonu</h3>
+          <p>
+            SQL Server ile geliştirilen kitap ve üye yönetim sistemi projesi.
+          </p>
+          <a
+            href="https://github.com/elifnazellzr/StudyMatch"
+            target="_blank"
+            class="project-link"
+            >GitHub'da gör →</a
+          >
+        </div>
+        <div class="project-item">
+          <span class="project-tag">Python</span>
+          <h3>Hastane Takip Sistemi</h3>
+          <p>
+            Python ile hasta kayıt, doktor bilgileri ve randevu takip
+            işlemlerini içeren otomasyon.
+          </p>
+          <a
+            href="https://github.com/elifnazellzr"
+            target="_blank"
+            class="project-link"
+            >GitHub'da gör →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <span class="section-label">Beceriler</span>
+      <h2 class="section-title">Kullandığım teknolojiler</h2>
+
+      <div class="tech-logo-grid">
+        <div class="tech-item">
+          <div class="tech-icon tech-php">
+            <svg viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="30"
+                y="22"
+                text-anchor="middle"
+                font-size="20"
+                font-weight="700"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                php
+              </text>
+            </svg>
+          </div>
+          <span>PHP</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-js">
+            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="25"
+                y="38"
+                text-anchor="middle"
+                font-size="30"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                JS
+              </text>
+            </svg>
+          </div>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-py">
+            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="25"
+                y="37"
+                text-anchor="middle"
+                font-size="26"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                Py
+              </text>
+            </svg>
+          </div>
+          <span>Python</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-c">
+            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="25"
+                y="39"
+                text-anchor="middle"
+                font-size="34"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                C
+              </text>
+            </svg>
+          </div>
+          <span>C</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-cs">
+            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="25"
+                y="37"
+                text-anchor="middle"
+                font-size="24"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                C#
+              </text>
+            </svg>
+          </div>
+          <span>C#</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-html">
+            <svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="30"
+                y="28"
+                text-anchor="middle"
+                font-size="16"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                HTML
+              </text>
+            </svg>
+          </div>
+          <span>HTML</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-css">
+            <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="25"
+                y="28"
+                text-anchor="middle"
+                font-size="16"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                CSS
+              </text>
+            </svg>
+          </div>
+          <span>CSS</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-sql">
+            <svg viewBox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="30"
+                y="26"
+                text-anchor="middle"
+                font-size="16"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                SQL
+              </text>
+              <text
+                x="30"
+                y="41"
+                text-anchor="middle"
+                font-size="11"
+                font-family="monospace"
+                fill="currentColor"
+                opacity="0.7"
+              >
+                Server
+              </text>
+            </svg>
+          </div>
+          <span>SQL Server</span>
+        </div>
+
+        <div class="tech-item">
+          <div class="tech-icon tech-mysql">
+            <svg viewBox="0 0 70 40" xmlns="http://www.w3.org/2000/svg">
+              <text
+                x="35"
+                y="28"
+                text-anchor="middle"
+                font-size="16"
+                font-weight="800"
+                font-family="monospace"
+                fill="currentColor"
+              >
+                MySQL
+              </text>
+            </svg>
+          </div>
+          <span>MySQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <span class="section-label">İletişim</span>
+      <h2 class="section-title">Seninle çalışmaya<br />hazırım</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>
+            Proje veya iş birliği için doğrudan yazabilirsin. Genellikle aynı
+            gün yanıt veririm.
+          </p>
+          <div class="contact-links">
+            <div class="contact-link">
+              <span class="link-label">Telefon</span>
+              <span class="link-value">+90 530 127 43 08</span>
+              <span class="link-arrow">↗</span>
+            </div>
+            <a href="mailto:elifnazellezer35@gmail.com" class="contact-link">
+              <span class="link-label">E-posta</span>
+              <span class="link-value">elifnazellezer35@gmail.com</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a
+              href="https://github.com/elifnazellzr"
+              target="_blank"
+              class="contact-link"
+            >
+              <span class="link-label">GitHub</span>
+              <span class="link-value">elifnazellzr</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/elifnaz-ellezer-a8674a3ab/"
+              target="_blank"
+              class="contact-link"
+            >
+              <span class="link-label">LinkedIn</span>
+              <span class="link-value">Elifnaz Ellezer</span>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <form
+          id="contact-form"
+          method="POST"
+          action="https://formspree.io/f/mqejakvw"
+          class="contact-form"
+        >
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Ad Soyad</label>
+              <input
+                id="f-name"
+                type="text"
+                name="name"
+                placeholder="Adın Soyadın"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="f-email">E-posta</label>
+              <input
+                id="f-email"
+                type="email"
+                name="email"
+                placeholder="ornek@email.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-subject">Konu</label>
+            <input
+              id="f-subject"
+              type="text"
+              name="subject"
+              placeholder="Konu başlığı"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="f-message">Mesaj</label>
+            <textarea
+              id="f-message"
+              name="message"
+              placeholder="Mesajını buraya yaz..."
+              required
+            ></textarea>
+          </div>
+          <div class="form-footer">
+            <button type="submit" class="form-submit" id="submit-btn">
+              Gönder
+            </button>
+            <p class="form-status" id="form-status"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <span class="footer-copy">© 2026 Elifnaz Ellezer</span>
+      <div class="footer-links">
+        <a href="https://github.com/elifnazellzr" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/elifnaz-ellezer-a8674a3ab/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="mailto:elifnazellezer35@gmail.com">E-posta</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
